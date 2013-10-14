@@ -56,4 +56,8 @@
 
 #endif
 
++ (NSArray *) MR_findAllWithArrayOfObjectIDS:(NSArray *)arrayOfObjectIDs sortedBy:(NSString *)sortTerm inContext:(NSManagedObjectContext *)context;
++ (NSArray *) MR_findAllWithArrayOfObjectIDS:(NSArray *)arrayOfObjectIDs inContext:(NSManagedObjectContext *)context;
+
+
 @end
